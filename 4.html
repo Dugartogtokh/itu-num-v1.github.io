@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+ <html>
+     <head>BAIR</head>
+         <title>GOy shuuu</title>
+             <script>
+                   var bairniiDavhar = 9;
+                   var bairniiOrts = 3;
+                   var bairniiAil = 4;
+                   var toot = window.prompt("Haalganii dugaar oruulaach");
+                   var davhar = 1;
+                   var orts = 1;
+                   var haalga = 1;
+                   var i = 1;
+                   while (i < toot){
+                    if (haalga < bairniiAil){
+                        haalga++;
+                        console.log(haalga)
+                    } else if (davhar < bairniiDavhar){
+                        davhar++;
+                        haalga = 1;
+                    } else if (orts < bairniiOrts){
+                        orts++;
+                        davhar = 1;
+                        haalga = 1;
+                    }
+                    i++;
+            }
+            alert(`orts: ${orts}, davhar: ${davhar}, haalga: ${haalga}`);
+             </script>
+ </html>

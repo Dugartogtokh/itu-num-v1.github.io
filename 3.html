@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javatai taniltsaj bui suga bi</title>
+</head>
+<body>
+    <script>
+        /*Чоно 25 км/ц хурдтай, туулай 18 км/ц хурдтай.
+         Гараас өгсөн зайтай байхад хэдэн минут хэдэн секундын 
+         дараа гэхэд гүйцэх вэ*/
+         var zai=window.prompt('hoorondoh zai');
+         var TSAG=(zai/7).toFixed(2);
+         var minute=(TSAG*60).toFixed(2);
+         var second=(minute- Math.floor(minute))*60;
+         window.alert(Math.floor(minute) + "minute" + second.toFixed(2)%100 + "second");
+    </script>  
+</body>
+</html>
