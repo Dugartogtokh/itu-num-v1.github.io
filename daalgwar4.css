@@ -1,6 +1,7 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   margin: 0;
+  background: #13124f;
   width: 100vw;
 }
 
@@ -27,7 +28,7 @@ body {
   color: white;
   height: 25%;
   width: 100%;
-  background-color: #13124f;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,7 +70,6 @@ body {
   width: 100%;
   margin-top: 20px;
   height: 350px;
-
 }
 #content #warning {
   margin-top: 20px;
@@ -134,7 +134,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-#tmain>input {
+#tmain > input {
   background-color: #1b1b6c;
   border: none;
   border-top: double;
@@ -145,7 +145,7 @@ body {
   width: auto;
   margin-bottom: 10px;
 }
-#tmain>button {
+#tmain > button {
   border: none;
   background-color: #f61067;
   color: white;
@@ -155,11 +155,11 @@ body {
 }
 #tfooter {
   background-color: #352ba5;
-  padding: 10px 0px;;
+  padding: 10px 0px;
   width: auto;
   text-align: center;
 }
-#tfooter>a {
+#tfooter > a {
   color: white;
 }
 #vote {
@@ -206,58 +206,58 @@ body {
 }
 @media only screen and (max-width: 600px) {
   #main {
-      flex-direction: column;
+    flex-direction: column;
   }
   #content {
-      width: auto;
+    width: auto;
   }
   #rightbar {
-      width: auto;
+    width: auto;
   }
   #container {
-      width: auto;
-      height: 100%;
-      margin: 0;
+    width: auto;
+    height: 100%;
+    margin: 0;
   }
   #header {
-      width: 100vw;
+    width: 100vw;
   }
   #bgreen {
-      padding: 10px 15%;
+    padding: 10px 15%;
   }
   #bred {
-      padding: 10px 15%;
+    padding: 10px 15%;
   }
   #header #button {
-      margin-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
 @media only screen and (min-width: 600px) {
   #main {
-      height: fit-content;
+    height: fit-content;
   }
   #content {
-      display: flex;
-      flex-direction: column;
+    display: flex;
+    flex-direction: column;
   }
   #content iframe {
-      min-height: 40%;
+    min-height: 40%;
   }
   #container {
-      height: 100vh;
-      margin-bottom: 0;
+    height: 100vh;
+    margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 900px) and (max-width: 1024px){
+@media only screen and (min-width: 900px) and (max-width: 1024px) {
   #content iframe {
-      height: 60%;
+    height: 60%;
   }
 }
-@media only screen and (min-width: 1360px){
+@media only screen and (min-width: 1360px) {
   #container {
-      height: 100vh;
+    height: 100vh;
   }
   #content {
-      height: auto;
+    height: auto;
   }
 }
